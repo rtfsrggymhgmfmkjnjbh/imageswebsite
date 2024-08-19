@@ -1,0 +1,45 @@
+body{
+    /* background-image:url("./flower.jpg"); */
+    background-image: url("./nature.jpg");
+    /* background-size:cover; */
+}
+.image{
+    object-fit:contain;
+    width:800px;
+    box-shadow:2px 2px 2px white;
+}
+.image1{
+    object-fit:fill;
+    width:800px;
+    box-shadow:2px 2px 2px white;
+}
+.image2{
+    object-fit:scale-down;
+    width:800px;
+    box-shadow:2px 2px 2px white;
+}
+h3{
+    background-color: aqua;
+    background-position: left;
+}
+
+.rtl{
+    text-decoration: double;
+    text-shadow:2px 2px 2px pink;
+    text-orientation: uppercase;
+    direction:rtl;
+    text-decoration-line:overline;   
+}
+.ltr{
+    text-decoration: double;
+    text-shadow:2px 2px 2px blue;
+    direction:ltr;
+    text-orientation:uppercase;
+    text-decoration-line:overline;
+}
+.lorem{
+    background-image:linear-gradient(to right,green,red,blue);
+    white-space:inherit;
+    width:40%;
+    box-shadow:2px 2px 2px violet;
+}
